@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class KalkulatorNilaiAkhir {
+public class NilaiAkhir {
     public static void main(String[] args) {
         final double BOBOT_PRAKTIKUM = 0.30;
         final double BOBOT_TUGAS = 0.20;
@@ -30,3 +30,21 @@ public class KalkulatorNilaiAkhir {
         int dibulatkan = (int) nilaiAkhir;
         double selisih = nilaiAkhir - dibulatkan;
         boolean lulus = nilaiAkhir >= 60;
+
+        System.out.println();
+        System.out.println("===== NILAI AKHIR =====");
+        System.out.println("Praktikum : " + praktikum + " (30%)");
+        System.out.println("Tugas     : " + tugas + " (20%)");
+        System.out.println("MID       : " + mid + " (20%)");
+        System.out.println("Final     : " + nilaiFinal + " (30%)");
+        System.out.println();
+        System.out.println("Nilai akhir  : " + nilaiAkhir);
+        System.out.println("Dibulatkan   : " + dibulatkan);
+        System.out.println("Selisih      : " + selisih);
+        System.out.println("Lulus (>=60) : " + lulus);
+        System.out.println();
+        System.out.println("Versi bilangan bulat (int) : " + nilaiAkhirInt);
+
+        scanner.close();
+    }
+}
