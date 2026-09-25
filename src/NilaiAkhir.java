@@ -8,3 +8,12 @@ public class KalkulatorNilaiAkhir {
         final double BOBOT_FINAL = 0.30;
 
         Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Nilai praktikum : ");
+        double praktikum = scanner.nextDouble();
+        System.out.print("Nilai tugas     : ");
+        double tugas = scanner.nextDouble();
+        System.out.print("Nilai MID       : ");
+        double mid = scanner.nextDouble();
+        System.out.print("Nilai final     : ");
+        double nilaiFinal = scanner.nextDouble();
