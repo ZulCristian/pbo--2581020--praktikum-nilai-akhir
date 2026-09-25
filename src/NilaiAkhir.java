@@ -6,3 +6,5 @@ public class KalkulatorNilaiAkhir {
         final double BOBOT_TUGAS = 0.20;
         final double BOBOT_MID = 0.20;
         final double BOBOT_FINAL = 0.30;
+
+        Scanner scanner = new Scanner(System.in);
